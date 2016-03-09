@@ -1,0 +1,33 @@
+<nav class="navbar navbar-bg navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" ui-sref=".dashboard">
+        <span><img class="nav-center" alt="Brand" src="img/profile.png"></span>
+      </a>
+      <p class="navbar-text tag-line">A starter template!</p>
+      <button type="button" class="navbar-toggle collapsed" ng-click="menuClick()" ng-class="{'menu-click' : menuClicked}">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar topbar"></span>
+        <span class="icon-bar middlebar"></span>
+        <span class="icon-bar bottombar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" uib-collapse="showMenu">
+      <ul class="nav navbar-nav navbar-right">
+        <li ui-sref-active="active"><a ui-sref=".dashboard">Dashboard</a></li>
+        <!-- <li ui-sref-active="active"><a ui-sref=".inventory">Inventory</a></li>
+        <li ui-sref-active="active"><a ui-sref=".history">History</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div ui-view class="template-holder"></div>
+
+<nav class="navbar footer">
+  <span class="nav-center">Made with <span class="glyphicon glyphicon-heart text-danger"></span> in India</span>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a ui-sref=".contact">Contact</a></li>
+    <li><a ui-sref=".aboutus">About</a></li>
+  </ul>
+</nav>

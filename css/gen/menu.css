@@ -1,0 +1,78 @@
+.navbar-bg {
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid #333333; }
+  .navbar-bg .navbar-brand {
+    padding: 0px;
+    color: #333333;
+    font-weight: lighter; }
+    .navbar-bg .navbar-brand img {
+      height: 50px; }
+  .navbar-bg .tag-line {
+    float: left;
+    padding: 0 10px;
+    text-transform: capitalize; }
+  .navbar-bg .navbar-toggle .icon-bar {
+    background-color: #006482; }
+  .navbar-bg .navbar-header .relative, .navbar-bg .navbar-header .menu-click .topbar {
+    position: relative; }
+  .navbar-bg .navbar-header .menu-click .topbar {
+    transform: rotate(45deg);
+    top: 6px; }
+  .navbar-bg .navbar-header .menu-click .middlebar {
+    display: none; }
+  .navbar-bg .navbar-header .menu-click .bottombar {
+    transform: rotate(-45deg);
+    top: 0px; }
+
+.navbar {
+  margin-bottom: 0;
+  /* background-color: rgba(255, 255, 255, 0.25); */ }
+
+.nav-center {
+  line-height: 50px; }
+
+.template-holder {
+  min-height: calc(100vh - 102px);
+  /* Header 50px + Footer 52px */
+  background: rgba(128, 128, 128, 0.2);
+  position: relative; }
+
+.template-holder.ng-enter {
+  -webkit-animation: slideInRight 0.5s both ease-in;
+  -moz-animation: slideInRight 0.5s both ease-in;
+  animation: slideInRight 0.5s both ease-in; }
+
+.footer {
+  padding: 0px 25px;
+  border: 0px solid transparent;
+  border-top: 1px solid #333333;
+  font-weight: lighter; }
+
+/* slide in from the right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%); }
+  to {
+    transform: translateX(0); } }
+@-moz-keyframes slideInRight {
+  from {
+    -moz-transform: translateX(100%); }
+  to {
+    -moz-transform: translateX(0); } }
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0); } }
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+  to {
+    transform: translateX(-100%); } }
+@-moz-keyframes slideOutLeft {
+  to {
+    -moz-transform: translateX(-100%); } }
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%); } }
+
+/*# sourceMappingURL=menu.css.map */
