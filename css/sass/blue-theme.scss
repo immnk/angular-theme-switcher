@@ -1,0 +1,13 @@
+$blue-background: rgba(34, 167, 240, 50);
+$blue-text-color: rgb(236, 240, 241);
+
+.theme{
+	background: $blue-background !important;
+	color: $blue-text-color !important;
+}
+.theme-background{
+	background: $blue-background !important;
+}
+.theme-text-color{
+	color: $blue-text-color !important;	
+}

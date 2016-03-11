@@ -13,8 +13,8 @@ Angular theme switcher is an angular project which simplifies the theme process 
 ### Installation
 
 ```sh
-$ git clone https://github.com/immnk/angular-starter-template-webapp
-$ cd angular-starter-template-webapp
+$ git clone https://github.com/immnk/angular-theme-switcher.git
+$ cd angular-theme-switcher
 $ sass --watch css/sass:css/gen 
 $ browser-sync start --server
 ```
@@ -22,13 +22,8 @@ $ browser-sync start --server
 ### What it would give you?
 You would download the template into an angular template folder and you can edit the index file upon your requirements.
 
-* script.js is your one place for all config and routing
-* templates hold your partials for all screens
-* css/scss contains sass files generated into gen folder
-* Alternatively you can use bower instead of CDN for libraries.
-	* comment out the dependencies in bower.json
-	*     $bower install
-
+* Edit the sass values and compile to reflect the changes
+* Add your own theme css file and it would load upon selection
 
 
 License
